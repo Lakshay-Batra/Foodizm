@@ -5,14 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+    <!-- bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome.com for icon in button -->
+    <script src="https://kit.fontawesome.com/18dd5346aa.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">FOODIZM</a>
+    <!-- navbar start -->
+
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="background-color: #292b2c;">
+        <a class="navbar-brand" style="font-size:x-large;" href="#"><i class="fab fa-foursquare"></i>  FOODIZM</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,8 +37,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Download</a>
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Download</a>
                     <div class="dropdown-menu " aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Android</a>
                         <a class="dropdown-item" href="#">IOS</a>
@@ -37,6 +46,133 @@
             </ul>
         </div>
     </nav>
+
+    <section id="title">
+
+        <!-- navbar end-->
+        <div class="row top-container" style="padding: 3%;">
+            <div class="col-md-6">
+                <h1 style="color: aliceblue; font-size: xx-large; margin-top: 2rem;">Dining in a restaurant made
+                    easy.</h1>
+                <button class="btn btn-light btn-lg" style="margin-top: 1rem;" type="button"><i
+                        class="fab fa-apple"></i> Download</button>
+                <button class="btn btn-light btn-lg" style="margin-top: 1rem;" type="button"><i
+                        class="fab fa-google-play"></i> Download</button>
+            </div>
+            <div class="col-md-6">
+                <img class="phone-img" src="images/iphone6.png" alt="iphone-mockup">
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Features -->
+
+    <section id="features">
+
+    <div class="row features container-fluid">
+        <div class="col-md-4 feature-box">
+            <i class="fas fa-check-circle fa-4x"></i>
+            <h3>Easy to use.</h3>
+            <p>So easy to use, even your dog could do it.</p>
+        </div>
+        <div class="col-md-4 feature-box">
+            <i class="fas fa-bullseye fa-4x"></i>
+            <h3>Elite Clientele</h3>
+            <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+        <div class="col-md-4 feature-box">
+            <i class="fas fa-heart fa-4x"></i>
+            <h3>Guaranteed to work.</h3>
+            <p>Find the love of your dog's life or your money back.</p>
+        </div>
+    </div>
+        
+    </section>
+
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+
+        <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+        <img src="images/dog-img.jpg" alt="dog-profile">
+        <em>Pebbles, New York</em>
+
+        <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em> -->
+
+    </section>
+
+
+    <!-- Press -->
+
+    <section id="press">
+        <img src="images/techcrunch.png" alt="tc-logo">
+        <img src="images/tnw.png" alt="tnw-logo">
+        <img src="images/bizinsider.png" alt="biz-insider-logo">
+        <img src="images/mashable.png" alt="mashable-logo">
+
+    </section>
+
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+
+        <h2>A Plan for Every Dog's Needs</h2>
+        <p>Simple and affordable price plans for your and your dog.</p>
+
+
+        <h3>Chihuahua</h3>
+        <h2>Free</h2>
+        <p>5 Matches Per Day</p>
+        <p>10 Messages Per Day</p>
+        <p>Unlimited App Usage</p>
+        <button type="button">Sign Up</button>
+
+
+        <h3>Labrador</h3>
+        <h2>$49 / mo</h2>
+        <p>Unlimited Matches</p>
+        <p>Unlimited Messages</p>
+        <p>Unlimited App Usage</p>
+        <button type="button">Sign Up</button>
+
+
+        <h3>Mastiff</h3>
+        <h2>$99 / mo</h2>
+        <p>Pirority Listing</p>
+        <p>Unlimited Matches</p>
+        <p>Unlimited Messages</p>
+        <p>Unlimited App Usage</p>
+        <button type="button">Sign Up</button>
+
+    </section>
+
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+
+        <h3>Find the True Love of Your Dog's Life Today.</h3>
+        <button type="button">Download</button>
+        <button type="button">Download</button>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer id="footer">
+
+        <p>© Copyright 2018 TinDog</p>
+
+    </footer>
+
+    <!-- bootstrap script -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -50,3 +186,26 @@
 </body>
 
 </html>
+
+
+
+<!--Steps of using app-->
+
+<!-- <div class="row">
+    <div class="col-md-3" style="text-align:center; background-color:green; padding:80px 20px; border : 15px solid; border-color:white;">
+        <h1>Step 1</h1>
+        Fill in the customer details and scan the QR code present on your table.
+    </div>
+    <div class="col-md-3" style="text-align:center; background-color:green; padding:80px 20px; border : 15px solid; border-color:white;">
+        <h1>Step 2</h1>
+        Add items to your plate from the menu.
+    </div>
+    <div class="col-md-3" style="text-align:center; background-color:green; padding:80px 20px; border : 15px solid; border-color:white;">
+        <h1>Step 3</h1>
+        Confirm your order and add extra plates/spoons if you need any.
+    </div>
+    <div class="col-md-3" style="text-align:center; background-color:green; padding:80px 20px; border : 15px solid; border-color:white;">
+        <h1>Step 4</h1>
+        BOOM….your order has been successfully placed, here you can also rate your food.
+    </div>
+</div> -->

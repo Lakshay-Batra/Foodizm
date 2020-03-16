@@ -1,0 +1,50 @@
+#features
+{
+    padding: 7% 15%; /* top/bottom left/right */
+    text-align: center;
+}
+#title
+{
+    text-align: center;
+    background-color: #292b2c;
+}
+body
+{
+    font-family: 'Montserrat';
+}
+h1
+{
+    font-family: 'Montserrat-black', sans-serif;
+}
+h3
+{
+    font-family: 'Montserrat-black', sans-serif;
+}
+p
+{
+    color: #292b2c;
+}
+.feature-box
+{
+    padding: 2%;
+}
+.navbar-brand
+{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item
+{
+    padding: 0 1rem;
+}
+.phone-img
+{
+    margin-top: 2rem;
+    width: 40%;
+    transform: rotate(25deg);
+}
+.top-container
+{
+    padding-top: 4.5rem;
+}
