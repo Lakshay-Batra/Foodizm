@@ -1,10 +1,10 @@
 #features
 {
-    padding: 5rem 15%; /* top/bottom left/right */
+    padding: 12% 15%; /* top/bottom left/right */
     text-align: center;
     background-color: white;
-    /* position: relative;
-    z-index: 1; */
+    position: relative;
+    z-index: 1;
 }
 #pricing
 {
@@ -20,7 +20,7 @@
 }
 #title
 {
-    /* padding-bottom: 5rem; */
+    padding-bottom: 27%;
     text-align: center;
     background-color: #292b2c;
 }
@@ -87,10 +87,10 @@ p
 {
     margin-top: 1rem;
     width: 41.5%;
-    /* transform: rotate(25deg); */
-    /* position: absolute;
+    transform: rotate(25deg);
+    position: absolute;
     right: 32%;
-    top:28% */
+    top:28%
 }
 .press-logo
 {
@@ -103,11 +103,21 @@ p
 }
 .top-container
 {
-    padding-top: 4.5rem;
+    padding-top: 3%;
 }
 .testimonial-image
 {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
+}
+@media (max-width : 790px)
+{
+    .phone-img
+    {
+        position: static;
+        width: 42%;
+        transform: rotate(0deg);
+
+    }
 }
