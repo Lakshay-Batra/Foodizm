@@ -22,7 +22,7 @@
     <!-- navbar start -->
 
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="background-color: #292b2c;">
-        <a class="navbar-brand" style="font-size:x-large;" href="#"><i class="fab fa-foursquare"></i>  FOODIZM</a>
+        <a class="navbar-brand" style="font-size:x-large;" href="#"><i class="fab fa-foursquare"></i> FOODIZM</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,10 +30,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href"#">Home</a>
+                    <a class="nav-link" href="#features">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href"#">Pricing</a>
+                    <a class="nav-link" href="#">Pricing</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -71,24 +71,24 @@
 
     <section id="features">
 
-    <div class="row features container-fluid">
-        <div class="col-md-4 feature-box">
-            <i class="fas fa-check-circle fa-4x"></i>
-            <h3>Easy to use.</h3>
-            <p>So easy to use, even your dog could do it.</p>
+        <div class="row features container-fluid">
+            <div class="col-md-4 feature-box">
+                <i class="fas fa-check-circle feature-icon fa-4x"></i>
+                <h3>Easy to use.</h3>
+                <p>So easy to use, even your dog could do it.</p>
+            </div>
+            <div class="col-md-4 feature-box">
+                <i class="fas fa-bullseye feature-icon fa-4x"></i>
+                <h3>Elite Clientele</h3>
+                <p>We have all the dogs, the greatest dogs.</p>
+            </div>
+            <div class="col-md-4 feature-box">
+                <i class="fas fa-heart feature-icon fa-4x"></i>
+                <h3>Guaranteed to work.</h3>
+                <p>Find the love of your dog's life or your money back.</p>
+            </div>
         </div>
-        <div class="col-md-4 feature-box">
-            <i class="fas fa-bullseye fa-4x"></i>
-            <h3>Elite Clientele</h3>
-            <p>We have all the dogs, the greatest dogs.</p>
-        </div>
-        <div class="col-md-4 feature-box">
-            <i class="fas fa-heart fa-4x"></i>
-            <h3>Guaranteed to work.</h3>
-            <p>Find the love of your dog's life or your money back.</p>
-        </div>
-    </div>
-        
+
     </section>
 
 
@@ -96,12 +96,38 @@
 
     <section id="testimonials">
 
-        <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-        <img src="images/dog-img.jpg" alt="dog-profile">
-        <em>Pebbles, New York</em>
+        <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.
+                    </h2>
+                    <img class="testimonial-image " src="images/dog-img.jpg" alt="dog-profile">
+                    <em>Pebbles, New York</em>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the
+                        love of their life. I think.</h2>
+                    <img class="testimonial-image " src="images/lady-img.jpg" alt="lady-profile">
+                    <em>Beverly, Illinois</em>
+                </div>
+                <!-- <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div> -->
+            </div>
+            <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+        <!-- <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+        <img class="testimonial-image d-block w-100" src="images/dog-img.jpg" alt="dog-profile">
+        <em>Pebbles, New York</em> -->
 
         <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <img class="testimonial-image d-block w-100" src="images/lady-img.jpg" alt="lady-profile">
           <em>Beverly, Illinois</em> -->
 
     </section>
@@ -110,10 +136,10 @@
     <!-- Press -->
 
     <section id="press">
-        <img src="images/techcrunch.png" alt="tc-logo">
-        <img src="images/tnw.png" alt="tnw-logo">
-        <img src="images/bizinsider.png" alt="biz-insider-logo">
-        <img src="images/mashable.png" alt="mashable-logo">
+        <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+        <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+        <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+        <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
 
     </section>
 
@@ -122,33 +148,79 @@
 
     <section id="pricing">
 
-        <h2>A Plan for Every Dog's Needs</h2>
-        <p>Simple and affordable price plans for your and your dog.</p>
+        <h2>A Plan for Every Restaurant's Needs</h2>
+        <p>Simple and affordable price plans for you.</p>
+
+        <!-- cards -->
+
+        <div class="row">
+            <div class="col-md-4 pricing-card">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Free</h3>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">0$ / mo</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pricing-card">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Pro</h3>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">20$ / mo</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pricing-card">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Enterprise</h3>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">50$ / mo</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
 
-        <h3>Chihuahua</h3>
-        <h2>Free</h2>
+
+
+        <!-- <h2>Free</h2>
         <p>5 Matches Per Day</p>
         <p>10 Messages Per Day</p>
         <p>Unlimited App Usage</p>
         <button type="button">Sign Up</button>
 
 
-        <h3>Labrador</h3>
-        <h2>$49 / mo</h2>
+        
+        <h2>$30 / mo</h2>
         <p>Unlimited Matches</p>
         <p>Unlimited Messages</p>
         <p>Unlimited App Usage</p>
         <button type="button">Sign Up</button>
 
 
-        <h3>Mastiff</h3>
-        <h2>$99 / mo</h2>
+        <h3>Enterprise</h3>
+        <h2>$50 / mo</h2>
         <p>Pirority Listing</p>
         <p>Unlimited Matches</p>
         <p>Unlimited Messages</p>
         <p>Unlimited App Usage</p>
-        <button type="button">Sign Up</button>
+        <button type="button">Sign Up</button> -->
 
     </section>
 
