@@ -6,6 +6,13 @@
     position: relative;
     z-index: 1;
 }
+#footer
+{
+    padding: 5% 10%;
+    text-align: center;
+    background-color: #292b2c;
+    color: aliceblue;
+}
 #pricing
 {
     padding: 7% 10%; /* top/bottom left/right */
@@ -24,8 +31,9 @@
     text-align: center;
     background-color: #292b2c;
 }
-#testimonials
+#usage-steps
 {
+    padding-top: 3%;
     text-align: center;
     background-color: #292b2c;
     color: aliceblue;
@@ -47,6 +55,7 @@ h2
 h3
 {
     font-family: 'Montserrat-black', sans-serif;
+    line-height: 1.5;
 }
 p
 {
@@ -72,6 +81,10 @@ p
 .feature-icon:hover
 {
     color: #292b2c;
+}
+.footer-icon
+{
+    margin: 0 1rem;
 }
 .navbar-brand
 {
