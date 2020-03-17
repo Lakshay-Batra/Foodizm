@@ -3,8 +3,8 @@
     padding: 15% 15%; /* top/bottom left/right */
     text-align: center;
     background-color: white;
-    position: relative;
-    z-index: 1;
+    /* position: relative;
+    z-index: 1; */
 }
 #pricing
 {
@@ -20,7 +20,7 @@
 }
 #title
 {
-    padding-bottom: 21.5rem;
+    /* padding-bottom: 30%; */
     text-align: center;
     background-color: #292b2c;
 }
@@ -88,9 +88,9 @@ p
     margin-top: 2rem;
     width: 40%;
     transform: rotate(25deg);
-    position: absolute;
-    right: 35%;
-    top:28%
+    /* position: absolute;
+    right: 32%;
+    top:28% */
 }
 .press-logo
 {
