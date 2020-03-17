@@ -85,9 +85,9 @@ p
 }
 .phone-img
 {
-    margin-top: 0.5rem;
-    width: 40%;
-    transform: rotate(25deg);
+    margin-top: 1rem;
+    width: 41.5%;
+    /* transform: rotate(25deg); */
     /* position: absolute;
     right: 32%;
     top:28% */
